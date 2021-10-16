@@ -1,5 +1,5 @@
 name: Develop Check
-on: [push, pull_request]
+on: push
 
 jobs:
   front-end-check:
