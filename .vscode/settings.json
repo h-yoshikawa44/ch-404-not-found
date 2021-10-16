@@ -6,5 +6,7 @@
     "source.fixAll.stylelint": true
   },
   "editor.formatOnSave": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "autoprefixer.formatOnSave": true,
+  "html-css-class-completion.enableEmmetSupport": true
 }
