@@ -76,6 +76,7 @@ This application/site was created as a submission to a [DevChallenges](https://d
 <!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
 
 - [一番詳しい CSS 設計規則 BEM のマニュアル](https://qiita.com/Takuan_Oishii/items/0f0d2c5dc33a9b2d9cb1)
+- [Twitter - @ixkaito - コンテンツが少ないときでもフッターを画面下部に表示させるいくつかの方法](https://twitter.com/ixkaito/status/1419619120790708225?s=20)
 - [stack overflow - Image error 404 on GitHub Pages](https://stackoverflow.com/questions/41921172/image-error-404-on-github-pages)
 
 ## Contact
