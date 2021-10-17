@@ -1,4 +1,6 @@
-/* root */
+/* root
+-------------------- */
+
 html,
 body {
   padding: 0;
@@ -16,20 +18,40 @@ a {
   box-sizing: border-box;
 }
 
-/* common */
+/* layout */
+
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+/* common
+-------------------- */
+
 .container {
   max-width: 1280px;
   padding: 0 4%;
   margin: 0 auto;
 }
 
-/* header */
+/* header
+-------------------- */
+
 .header {
   padding-top: 40px;
   padding-bottom: 40px;
 }
 
-.header-site-title {
+.header__site-title {
   font-family: Inconsolata, sans-serif;
   font-size: 24px;
   font-style: normal;
@@ -40,25 +62,29 @@ a {
   letter-spacing: -0.08em;
 }
 
-/* main */
-.main-block {
+/* main
+-------------------- */
+
+.main {
+  padding: 80px 0;
+}
+
+.main-section {
   display: grid;
   grid-template-columns: 1fr 1fr;
   -moz-column-gap: 8%;
   column-gap: 4%;
-  padding-top: 80px;
-  padding-bottom: 80px;
 }
 
-.main-img {
+.main-section__img {
   max-width: 90%;
 }
 
-.main-content-block {
+.main-section-contents {
   display: grid;
 }
 
-.main-msg {
+.main-section-contents__msg {
   font-family: Space Mono, sans-serif;
   font-size: 64px;
   font-style: normal;
@@ -68,9 +94,9 @@ a {
   letter-spacing: -0.035em;
 }
 
-.main-sub-msg {
+.main-section-contents__sub-msg {
   max-width: 360px;
-  margin-top: 16px;
+  margin-top: 24px;
   font-family: Space Mono, sans-serif;
   font-size: 24px;
   font-style: normal;
@@ -80,7 +106,7 @@ a {
   letter-spacing: -0.035em;
 }
 
-.main-btn {
+.main-section-contents-btn {
   width: 216px;
   height: 68px;
   margin-top: 40px;
@@ -95,17 +121,51 @@ a {
   background-color: #333;
 }
 
-/* footer */
+/* footer
+-------------------- */
+
 .footer {
   padding: 24px 0;
   text-align: center;
 }
 
-.footer-signature {
+.footer__signature {
   font-family: Montserrat, sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
   line-height: 17px;
   color: #bdbdbd;
+}
+
+/* mobile style
+-------------------- */
+
+@media (max-width: 600px) {
+  /* main */
+
+  .main {
+    padding: 40px 0;
+  }
+
+  .main-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    -moz-row-gap: 8%;
+    row-gap: 4%;
+  }
+
+  .main-section__img {
+    margin: 0 auto;
+  }
+
+  .main-section-contents__msg {
+    font-size: 48px;
+    line-height: 71px;
+  }
+
+  .main-section-contents__sub-msg {
+    font-size: 18px;
+    line-height: 27px;
+  }
 }

@@ -9,9 +9,9 @@
       name="description"
       content="devChallenges.io - 404 Not Found | by h-yoshikawa44"
     />
+    <link rel="icon" type="image/png" href="images/favicon.png" />
 
     <!-- CSS -->
-    <link rel="icon" type="image/png" href="images/favicon.png" />
     <link
       rel="stylesheet"
       href="https://unpkg.com/modern-css-reset/dist/reset.min.css"
@@ -25,22 +25,30 @@
     <link href="css/style.css" rel="stylesheet" />
   </head>
   <body>
-    <header class="container header">
-      <h1 class="header-site-title">404 Not Found</h1>
-    </header>
-    <main class="container main-block">
-      <img src="/images/Scarecrow.png" alt="Scarecrow Image" class="main-img" />
-      <div class="main-content-block">
-        <h2 class="main-msg">I have bad news for you</h2>
-        <p class="main-sub-msg">
-          The page you are looking for might be removed or is temporarily
-          unavailable
-        </p>
-        <button class="main-btn">Back to homepage</button>
+    <header class="header">
+      <div class="container">
+        <h1 class="header__site-title">404 Not Found</h1>
       </div>
+    </header>
+    <main class="main">
+      <section class="container main-section">
+        <img
+          src="/images/Scarecrow.png"
+          alt="Scarecrow Image"
+          class="main-section__img"
+        />
+        <div class="main-section-contents">
+          <h2 class="main-section-contents__msg">I have bad news for you</h2>
+          <p class="main-section-contents__sub-msg">
+            The page you are looking for might be removed or is temporarily
+            unavailable
+          </p>
+          <button class="main-section-contents-btn">Back to homepage</button>
+        </div>
+      </section>
     </main>
     <footer class="footer">
-      <small class="footer-signature">
+      <small class="footer__signature">
         created by h-yoshikawa44 - devChallenges.io</small
       >
     </footer>
