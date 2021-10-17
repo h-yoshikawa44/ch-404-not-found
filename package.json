@@ -1,11 +1,11 @@
 {
   "name": "404-not-found",
   "version": "0.1.0",
-  "main": "index.html",
+  "main": "index.js",
   "repository": "git@github.com:h-yoshikawa44/404-not-found.git",
   "author": "h-yoshikawa44 <43331308+h-yoshikawa44@users.noreply.github.com>",
-  "license": "MIT",
   "private": true,
+  "homepage": "https://h-yoshikawa44.github.io/404-not-found/",
   "scripts": {
     "lint-check": "yarn lint:stylelint && yarn check:prettier",
     "lint:stylelint": "yarn run -s stylelint './css/**/*.css'",
