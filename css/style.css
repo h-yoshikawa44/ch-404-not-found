@@ -1,12 +1,26 @@
 /* root
 -------------------- */
 
+:root {
+  --black: #333;
+  --black-lighter: #4f4f4f;
+  --white: #fff;
+  --gray: #bdbdbd;
+
+  /* stylelint-disable value-keyword-case */
+  --font-base: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  --font-inconsolata: Inconsolata, sans-serif;
+  --font-space-mono: Space Mono, sans-serif;
+  --font-montserrat: Montserrat, sans-serif;
+  /* stylelint-enable value-keyword-case */
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: var(--font-base);
 }
 
 a {
@@ -52,12 +66,12 @@ main {
 }
 
 .header__site-title {
-  font-family: Inconsolata, sans-serif;
+  font-family: var(--font-inconsolata);
   font-size: 24px;
   font-style: normal;
   font-weight: bold;
   line-height: 25px;
-  color: #333;
+  color: var(--black);
   text-transform: uppercase;
   letter-spacing: -0.08em;
 }
@@ -85,24 +99,24 @@ main {
 }
 
 .main-section-contents__msg {
-  font-family: Space Mono, sans-serif;
+  font-family: var(--font-space-mono);
   font-size: 64px;
   font-style: normal;
   font-weight: bold;
   line-height: 95px;
-  color: #333;
+  color: var(--black);
   letter-spacing: -0.035em;
 }
 
 .main-section-contents__sub-msg {
   max-width: 360px;
   margin-top: 24px;
-  font-family: Space Mono, sans-serif;
+  font-family: var(--font-space-mono);
   font-size: 24px;
   font-style: normal;
   font-weight: normal;
   line-height: 36px;
-  color: #4f4f4f;
+  color: var(--black-lighter);
   letter-spacing: -0.035em;
 }
 
@@ -110,15 +124,15 @@ main {
   width: 216px;
   height: 68px;
   margin-top: 40px;
-  font-family: Space Mono, sans-serif;
+  font-family: var(--font-space-mono);
   font-size: 14px;
   font-style: normal;
   font-weight: bold;
   line-height: 21px;
-  color: #fff;
+  color: var(--white);
   text-transform: uppercase;
   letter-spacing: -0.035em;
-  background-color: #333;
+  background-color: var(--black);
 }
 
 /* footer
@@ -130,12 +144,12 @@ main {
 }
 
 .footer__signature {
-  font-family: Montserrat, sans-serif;
+  font-family: var(--font-montserrat);
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
   line-height: 17px;
-  color: #bdbdbd;
+  color: var(--gray);
 }
 
 /* mobile style
