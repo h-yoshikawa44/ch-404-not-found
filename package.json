@@ -13,10 +13,12 @@
     "fix": "yarn fix:stylelint && yarn fix:prettier",
     "fix:stylelint": "yarn lint:stylelint --fix",
     "fix:prettier": "yarn check:prettier --write",
+    "deploy": "yarn build && gh-pages -d dist",
     "prepare": "simple-git-hooks || echo 'Can not set git hooks'"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.0",
+    "gh-pages": "^3.2.3",
     "lint-staged": "^12.1.2",
     "postcss": "^8.4.4",
     "prettier": "^2.4.1",
