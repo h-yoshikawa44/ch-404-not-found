@@ -82,7 +82,7 @@ main {
   padding: 80px 0;
 }
 
-.main-section-layout {
+.main-section__layout {
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 4%;
@@ -172,7 +172,7 @@ main {
     padding: 40px 0;
   }
 
-  .main-section-layout {
+  .main-section__layout {
     display: grid;
     grid-template-columns: 1fr;
     -moz-row-gap: 8%;
