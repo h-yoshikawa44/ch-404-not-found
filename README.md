@@ -32,6 +32,7 @@
   - [Mobile](#mobile)
   - [Built With](#built-with)
 - [Features](#features)
+- [How To Use](#how-to-use)
 - [learned/improved](#learnedimproved)
 - [Acknowledgements](#acknowledgements)
 - [Contact](#contact)
@@ -52,10 +53,16 @@
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
+Base
+
 - [HTML](https://developer.mozilla.org/ja/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/ja/docs/Web/CSS)
+- [Node.js](https://nodejs.org/)：16.13.0
+- [Vite](https://ja.vitejs.dev/)：2.6.14
 
-※The npm library was only used for syntax checking and formatting.
+Other major libraries
+
+- [focus-visible](https://github.com/WICG/focus-visible)
 
 ## Features
 
@@ -64,6 +71,25 @@
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY) was to build an application to complete the given user stories.
 
 - [x] User story: I can see a page following the given design
+
+## How To Use
+
+<!-- Example: -->
+
+To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [yarn](https://yarnpkg.com/)) installed on your computer. From your command line:
+
+```bash
+# Clone this repository
+$ git clone https://github.com/h-yoshikawa44/ch-404-not-found.git
+or
+$ git clone git@github.com:h-yoshikawa44/ch-404-not-found.git
+
+# Install dependencies
+$ yarn install
+
+# Run the Vite
+$ yarn dev
+```
 
 ## learned/improved
 
