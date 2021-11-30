@@ -86,7 +86,6 @@ main {
 .main-section {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  -moz-column-gap: 8%;
   column-gap: 4%;
 }
 
