@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  base: '/ch-404-not-found/',
+  base: process.env.NODE_ENV === 'production' ? '/ch-404-not-found/' : './',
   server: {
     open: true,
   },
