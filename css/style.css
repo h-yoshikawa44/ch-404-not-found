@@ -138,7 +138,9 @@ main {
 .main-section-contents__btn:focus {
   color: var(--black);
   background-color: var(--white);
-  transition: color 0.3s, background-color 0.3s;
+  transition:
+    color 0.3s,
+    background-color 0.3s;
 }
 
 .main-section-contents__btn:not(.focus-visible) {
@@ -165,7 +167,7 @@ main {
 /* Tablet style
 -------------------- */
 
-@media (max-width: 959px) {
+@media (width <= 959px) {
   /* main */
 
   .main {
