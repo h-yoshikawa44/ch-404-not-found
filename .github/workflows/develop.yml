@@ -1,9 +1,13 @@
 name: Develop Check
-on: push
+on:
+  workflow_call:
+  push:
+    branches-ignore:
+      - main
 
 jobs:
-  front-end-check:
-    name: FrontEnd Check
+  check:
+    name: Lint
     runs-on: ubuntu-22.04
     timeout-minutes: 5
 
@@ -23,3 +27,14 @@ jobs:
 
       - name: StyleLint & Prettier
         run: npm run lint-check
+
+      - name: Slack Notification by NonSuccess
+        uses: 8398a7/action-slack@v3
+        if: success() != true
+        with:
+          status: ${{ job.status }}
+          fields: repo,message,commit,author,action,eventName,ref,workflow
+          author_name: 'check'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
