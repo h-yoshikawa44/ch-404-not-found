@@ -62,7 +62,7 @@ Base
 
 Other major libraries
 
-- [focus-visible](https://github.com/WICG/focus-visible)
+- [postcss-preset-env](https://github.com/csstools/postcss-plugins/tree/main/plugin-packs/postcss-preset-env)
 
 ## Features
 
