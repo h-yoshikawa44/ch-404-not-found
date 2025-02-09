@@ -130,8 +130,8 @@ main {
   color: var(--white);
   text-transform: uppercase;
   letter-spacing: -0.035em;
-  background-color: var(--black);
   outline-offset: 8px;
+  background-color: var(--black);
 }
 
 .main-section-contents__btn:hover,
@@ -144,7 +144,7 @@ main {
 }
 
 .main-section-contents__btn:not(:focus-visible) {
-  outline: none;
+  outline-color: transparent;
 }
 
 /* footer
@@ -177,7 +177,6 @@ main {
   .main-section__layout {
     display: grid;
     grid-template-columns: 1fr;
-    -moz-row-gap: 8%;
     row-gap: 4%;
   }
 
