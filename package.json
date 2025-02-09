@@ -15,9 +15,6 @@
     "deploy": "npm run build && gh-pages -d dist",
     "prepare": "simple-git-hooks || echo 'Can not set git hooks'"
   },
-  "dependencies": {
-    "focus-visible": "^5.2.0"
-  },
   "devDependencies": {
     "gh-pages": "^6.0.0",
     "lint-staged": "^14.0.1",
