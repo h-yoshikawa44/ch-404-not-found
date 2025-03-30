@@ -90,6 +90,7 @@ main {
 
 .main-section__img {
   max-width: 90%;
+  height: auto;
 }
 
 .main-section-contents {
