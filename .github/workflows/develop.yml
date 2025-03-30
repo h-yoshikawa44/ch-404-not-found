@@ -25,7 +25,7 @@ jobs:
       - name: Package Clean Install
         run: npm ci
 
-      - name: StyleLint & Prettier
+      - name: Lint
         run: npm run lint-check
 
       - name: Slack Notification by NonSuccess
