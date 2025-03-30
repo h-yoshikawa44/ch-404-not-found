@@ -52,8 +52,8 @@ Base
 
 - [HTML](https://developer.mozilla.org/ja/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/ja/docs/Web/CSS)
-- [Node.js](https://nodejs.org/)：22.13.1
-- [Vite](https://ja.vitejs.dev/)：6.1.0
+- [Node.js](https://nodejs.org/): 22.13.1
+- [Vite](https://ja.vitejs.dev/)
 
 Other major libraries
 
@@ -102,6 +102,6 @@ npm run dev
 
 ## Contact
 
-- Website：[h-yoshikawa44.com](https://h-yoshikawa44.com)
-- GitHub：[@h-yoshikawa44](https://github.com/h-yoshikawa44)
-- X：[@yoshi44_lion](https://x.com/yoshi44_lion)
+- Website: [h-yoshikawa44.com](https://h-yoshikawa44.com)
+- GitHub: [@h-yoshikawa44](https://github.com/h-yoshikawa44)
+- X: [@yoshi44_lion](https://x.com/yoshi44_lion)
